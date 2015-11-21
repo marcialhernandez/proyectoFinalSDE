@@ -1,0 +1,13 @@
+Instrucciones
+
+Ejecuta el script .tcl que describe el ambiente de simulacion usando NS2
+ns DsdvShadow.tcl 
+
+Ejecuta script .awk para analizar el historial generado .tr
+gawk -f MetricasDSDV256.awk DsdvShadow.tr
+
+La version de NS2, ya parcheada para tener disponible Ricean, Full TCP en DSDV y OLSR se encuentra en el siguiente link
+
+https://drive.google.com/file/d/0ByoHdExCUrOQSFlmclpBb1RYamc/view?usp=sharing
+
+Para llegar y compilar.
